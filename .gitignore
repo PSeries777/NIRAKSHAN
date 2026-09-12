@@ -10,8 +10,21 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-*.local
 *.tsbuildinfo
+
+# Environment variables and API credentials
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.cert
+*.crt
+secrets.json
+credentials.json
+api_keys.json
+service-account*.json
 
 # Editor directories and files
 .vscode/*
